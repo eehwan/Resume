@@ -20,14 +20,15 @@
 -------------------------------------------------------
 ### <Skills>
 
-- Front-end: Html5, Css, Scss, Javascript, webpack, gulp, React
-- Back-end: NodeJS, express, socketIO, Rest-api, Aws s3
+- Front-end: Html5, Css, Scss, Javascript, webpack, React
+- Back-end: NodeJS, express, RESTful api, Aws s3
 - Database: mySQL, mongoDB
+- Etc: socketIO, git  
 -------------------------------------------------------
 ### <개인 프로젝트>
 
 - 동영상 공유 플랫폼
-(stacks: node, express, OAuth, Aws-S3, mongoDB, ... )
+(stacks: node, express, RESTful api, OAuth, Aws-S3, mongoDB, ... )
 (features: 회원가입, 업로드, 삭제, 댓글 등등)
 
 - 실시간 Drawing & Chatting app
@@ -36,7 +37,7 @@
 
 - react framework를 이용한 movieApp
 (stacks: react, JSX, Html, Css)
-(features: 단순한 프론트엔드 작업물)
+(features: react를 이용한 프론트엔드 작업물)
 
 등등
 -------------------------------------------------------
