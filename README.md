@@ -47,17 +47,23 @@
 
 ## < 개인 프로젝트 >
 
-#### 동영상 공유 플랫폼
-(stacks: node, express, RESTful api, OAuth, Aws-S3, mongoDB, ... )
+#### 동영상 공유 플랫폼 [코드 링크](https://github.com/eehwan/Wetube)
+
+(stacks: node, express, RESTful api, OAuth, Aws-S3, mongoDB, ... )  
 (features: 회원가입, 업로드, 삭제, 댓글 등등)
 
-#### 실시간 Drawing & Chatting app
-(stacks: node, socketIO)
+#### 실시간 Drawing & Chatting app [코드 링크](https://github.com/eehwan/Catch-Mind)
+(stacks: node, socketIO)  
 (features: SPA, socketIO를 통한 html Canvas 라이브 공유, 라이브 채팅)
 
-#### react framework를 이용한 movieApp
-(stacks: react, JSX, Html, Css)
+#### react framework를 이용한 movieApp [코드 링크](https://github.com/eehwan/https://github.com/eehwan/movie_app)
+(stacks: react, JSX, Html, Css)  
 (features: react를 이용한 프론트엔드 작업물)   
+
+#### Painting Board [코드 링크](https://github.com/eehwan/PaintingBoard)
+(stacks: Html, Css, Html Canvas)  
+(features: 사진불러오기 저장하기 등이 되는 그림판)   
+
 
 등등
 
@@ -137,6 +143,5 @@ production버전 명령어는 linux명령어로 바꾸었다.
 > 하지만 뭔가 부족한 거 같아 기존에 진행했던 patingBoard를 이용하여 이 프로젝트를 완성하게 되었다.
 
 > 이 프로젝트까지 진행하여 완수하고 나니 상당히 자신감이 생겼고 더욱 다양한 기능들을 구형해고 만들고 싶다는 생각이 강해졌다.
-
 *********************************************
 
