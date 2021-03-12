@@ -1,5 +1,9 @@
 # Resume
 
+[![HitCount](http://hits.dwyl.com/eehwan/Resume.svg)](http://hits.dwyl.com/eehwan/Resume)
+![GitHub last commit](https://img.shields.io/github/last-commit/eehwan/Resume.svg)
+![status](https://img.shields.io/badge/working-brightgreen.svg)
+
 
 ## 신이환
 
