@@ -4,13 +4,12 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/eehwan/Resume.svg)
 ![status](https://img.shields.io/badge/working-brightgreen.svg)
 
-
 ## 신이환
 
 생년월일: 1995년 2월 15일  
 전화번호: 010-5006-0874  
 이메일: eehwan.shin@gmail.com  
-깃허브주소: https://github.com/eehwan
+깃허브주소: <https://github.com/eehwan>
 
 *********************************************
 
@@ -20,7 +19,7 @@
 
 *********************************************
 
-## 풀스택을 지향하는 예비 개발자입니다.
+## 풀스택을 지향하는 예비 개발자입니다
 
 *********************************************
 
@@ -42,23 +41,25 @@
 
 ## < 개인 프로젝트 >
 
-#### 동영상 공유 플랫폼 [코드 링크](https://github.com/eehwan/Wetube)
+### 동영상 공유 플랫폼 [코드 링크](https://github.com/eehwan/Wetube)
 
 (stacks: node, express, RESTful api, OAuth, Aws-S3, mongoDB, ... )  
 (features: 회원가입, 업로드, 삭제, 댓글 등등)
 
-#### 실시간 Drawing & Chatting app [코드 링크](https://github.com/eehwan/Catch-Mind)
+### 실시간 Drawing & Chatting app [코드 링크](https://github.com/eehwan/Catch-Mind)
+
 (stacks: node, socketIO)  
 (features: SPA, socketIO를 통한 html Canvas 라이브 공유, 라이브 채팅)
 
-#### react framework를 이용한 movieApp [코드 링크](https://github.com/eehwan/https://github.com/eehwan/movie_app)
+### react framework를 이용한 movieApp [코드 링크](https://github.com/eehwan/https://github.com/eehwan/movie_app)
+
 (stacks: react, JSX, Html, Css)  
-(features: react를 이용한 프론트엔드 작업물)   
+(features: react를 이용한 프론트엔드 작업물)  
 
-#### Painting Board [코드 링크](https://github.com/eehwan/PaintingBoard)
+### Painting Board [코드 링크](https://github.com/eehwan/PaintingBoard)
+
 (stacks: Html, Css, Html Canvas)  
-(features: 사진불러오기 저장하기 등이 되는 그림판)   
-
+(features: 사진불러오기 저장하기 등이 되는 그림판)  
 
 등등
 
@@ -76,26 +77,28 @@
 그래서 서치를 하던 중 이것이 인코딩 문제라는 것을 알게 되었다.
 그래서 웹페이지의 meta태그의 charset 설정을 cp949, unicode 등으로 변경해보았고 파이썬 인터프리터에서 defaultcoding도 변경해보았지만,
 문제가 해결되지 않았다. 결국 혼자 해결 할 수가 없었다. 하지만 그 당시에는 관련 검색어나 물어볼만한 커뮤니티를 알지 못했고 개발 관련 오픈 카톡방까지 여기저기 돌아다니며 해결책을 찾았고 그 결과
+
 ```python
 import sys
 reload(sys)
 sys.setdefaultcoding("utf-8") 
 ```
->위의 코드를 index.py 맨 앞줄에 넣어 실행될 때 다시 한번 defaltcoding을 세팅해주니 해결되었다. 대단한 오류도 아니었지만 초심자 시절 마주한 오류라 기억에 남는다. 
+
+>위의 코드를 index.py 맨 앞줄에 넣어 실행될 때 다시 한번 defaltcoding을 세팅해주니 해결되었다. 대단한 오류도 아니었지만 초심자 시절 마주한 오류라 기억에 남는다.  
 
 ------------------------------------------
 
-###  - Painting board 中 
+### - Painting board 中
 
 #### 그림그리는 중간중간 조금이라도 마우스가 canvas 바깥으로 나가면 선이 바로 끊기는 현상 해결
 
-> 가장자리에 선을 채우거나 하는 작업을 할 때 종종 마우스 커서가 canvas영역 바깥으로 나갔다가 들어오는 경우가 많다. 하지만 기존에 방식으로는 나갈때마다 선이 끊겨서 해당 과정에서 상당한 불편함을 발생시켰다.  
+> 가장자리에 선을 채우거나 하는 작업을 할 때 종종 마우스 커서가 canvas영역 바깥으로 나갔다가 들어오는 경우가 많다. 하지만 기존에 방식으로는 나갈때마다 선이 끊겨서 해당 과정에서 상당한 불편함을 발생시켰다.
 
 >그래서 해결책으로 canvas에 영역은 유지한 채 마우스이벤트 감지하는 영역을 넓혔다. 그렇게 하여 마우스가 canvas바깥으로 나갔다가 다시들어와도 선의 연결이 끊기지 않게 되었다.
 
 ------------------------------------------
 
-###  - youtube를 오마주한 동영상 공유 플렛폼(Wetube) 中 
+### - youtube를 오마주한 동영상 공유 플렛폼(Wetube) 中  
 
 #### 동기처리와 비동기처리에 대한 이해 부족
 
@@ -115,7 +118,7 @@ production버전 명령어는 linux명령어로 바꾸었다.
 
 ------------------------------------------
 
-### Catch-Mind 中 
+### Catch-Mind 中  
 
 #### 팝업되는 알림창을 차례로 쌓이고 위에서부터 차례로 없어지게 만드는 과정
 
@@ -128,8 +131,7 @@ production버전 명령어는 linux명령어로 바꾸었다.
 > 그래서 상위태그에 display:flex는 그대로 두고
 그 안에 Js로 알림이 생길때마다 dom을 생성해서 추가하였다. 그와 동시에 setTimeout을 걸어 몇 초가 지나면 자동으로 없어지게 구현하였다.
 
-**결과물**
-![](https://images.velog.io/images/eehwan/post/cffd01d4-4b70-4a67-ace1-5c94bb10f7e0/%EC%BA%A1%EC%B2%98.JPG)
+![결과물](https://images.velog.io/images/eehwan/post/cffd01d4-4b70-4a67-ace1-5c94bb10f7e0/%EC%BA%A1%EC%B2%98.JPG)
 
 #### 고찰
 
