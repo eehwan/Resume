@@ -4,6 +4,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/eehwan/Resume.svg)
 ![status](https://img.shields.io/badge/working-brightgreen.svg)
 
+<br>
+
 ## 신이환
 
 생년월일: 1995년 2월 15일  
@@ -11,24 +13,41 @@
 이메일: eehwan.shin@gmail.com  
 깃허브주소: <https://github.com/eehwan>
 
+<br>
+
 *********************************************
+<br>
 
 ## < Education >
 
 - 고려대학교 졸업예정(~ 2022.02)
 
+<br>
+
 *********************************************
+
+<br>
 
 ## 풀스택을 지향하는 예비 개발자입니다
 
+<br>
+
 *********************************************
 
-### 나의 강점
+<br>
+
+### 나의 강점  
+
+<br>
 
 - 한 번 정한 목표는 포기하지 않고 될 때 까지 노력한다.
 - 사소하고 세심한 것을 캐치 잘 하며, 적당한 마무리보다 완벽한 마무리를 선호한다.
 
+<br>
+
 *********************************************
+
+<br>
 
 ## < Skills >
 
@@ -37,35 +56,45 @@
 - Database: mySQL, mongoDB
 - Etc: socketIO, git  
 
+<br>
+
 *********************************************
+
+<br>
 
 ## < 개인 프로젝트 >
 
 ### 동영상 공유 플랫폼 [코드 링크](https://github.com/eehwan/Wetube)
 
-(stacks: node, express, RESTful api, OAuth, Aws-S3, mongoDB, ... )  
-(features: 회원가입, 업로드, 삭제, 댓글 등등)
+- **Stacks**: node, express, RESTful api, OAuth, Aws-S3, mongoDB, ...  
+- **Features**: 회원가입, 업로드, 삭제, 댓글 등등  
 
 ### 실시간 Drawing & Chatting app [코드 링크](https://github.com/eehwan/Catch-Mind)
 
-(stacks: node, socketIO)  
-(features: SPA, socketIO를 통한 html Canvas 라이브 공유, 라이브 채팅)
+- **Stacks**: node, socketIO  
+- **Features**: SPA, socketIO를 통한 html Canvas 라이브 공유, 라이브 채팅  
 
-### react framework를 이용한 movieApp [코드 링크](https://github.com/eehwan/https://github.com/eehwan/movie_app)
+### React framework를 이용한 movieApp [코드 링크](https://github.com/eehwan/https://github.com/eehwan/movie_app)
 
-(stacks: react, JSX, Html, Css)  
-(features: react를 이용한 프론트엔드 작업물)  
+- **Stacks**: react, JSX, Html, Css  
+- **Features**: react를 이용한 프론트엔드 작업물  
 
 ### Painting Board [코드 링크](https://github.com/eehwan/PaintingBoard)
 
-(stacks: Html, Css, Html Canvas)  
-(features: 사진불러오기 저장하기 등이 되는 그림판)  
+- **Stacks**: Html, Css, Html Canvas  
+- **Features**: 사진 불러오기 저장하기 등이 가능한 그림판  
 
 등등
 
+<br>
+
 *********************************************
 
+<br>
+
 ## 개인프로젝트를 진행하며 생긴 일화 및 고찰
+
+<br>
 
 ### - 파이썬으로 게시판 만들기 中
 
@@ -88,7 +117,11 @@ sys.setdefaultcoding("utf-8")
 
 ------------------------------------------
 
+<br>
+
 ### - Painting board 中
+
+<br>
 
 #### 그림그리는 중간중간 조금이라도 마우스가 canvas 바깥으로 나가면 선이 바로 끊기는 현상 해결
 
@@ -98,7 +131,9 @@ sys.setdefaultcoding("utf-8")
 
 ------------------------------------------
 
-### - youtube를 오마주한 동영상 공유 플렛폼(Wetube) 中  
+<br>
+
+### - Youtube를 오마주한 동영상 공유 플렛폼(Wetube) 中  
 
 #### 동기처리와 비동기처리에 대한 이해 부족
 
@@ -118,7 +153,11 @@ production버전 명령어는 linux명령어로 바꾸었다.
 
 ------------------------------------------
 
-### Catch-Mind 中  
+<br>
+
+### -  상대방이 그린 그림 맞추기 게임(Catch-Mind) 中    
+  
+<br>
 
 #### 팝업되는 알림창을 차례로 쌓이고 위에서부터 차례로 없어지게 만드는 과정
 
@@ -131,6 +170,9 @@ production버전 명령어는 linux명령어로 바꾸었다.
 > 그래서 상위태그에 display:flex는 그대로 두고
 그 안에 Js로 알림이 생길때마다 dom을 생성해서 추가하였다. 그와 동시에 setTimeout을 걸어 몇 초가 지나면 자동으로 없어지게 구현하였다.
 
+<br>
+
+**결과물**
 ![결과물](https://images.velog.io/images/eehwan/post/cffd01d4-4b70-4a67-ace1-5c94bb10f7e0/%EC%BA%A1%EC%B2%98.JPG)
 
 #### 고찰
@@ -140,14 +182,23 @@ production버전 명령어는 linux명령어로 바꾸었다.
 > 하지만 뭔가 부족한 거 같아 기존에 진행했던 patingBoard를 이용하여 이 프로젝트를 완성하게 되었다.
 
 > 이 프로젝트까지 진행하여 완수하고 나니 상당히 자신감이 생겼고 더욱 다양한 기능들을 구형해고 만들고 싶다는 생각이 강해졌다.
+
+<br>
+
 *********************************************
 
+<br>
+
 ## 비전공자인데 개발자로 전향한 이유?
+
+<br>
 
 >기존 학과에 만족하지 못하고 있었다. 그러던 중 접한 개발에서 끊임없이 접하는 오류와 해결, 그 과정에서 오는 희열이 컸다.
 또한 작은 프로젝트를 들어가서 며칠 내지 몇 주 넘게 한 가지에 몰두하여 작업하고 마무리하여 끝마칠 때 오는 만족감이 굉장이 컸다.
 
 >기존에 나에게 맞지 않는 전공을 공부하고 있던 터라, 개발이 나의 적성과 흥미에 잘 맞는다는 것을 더욱 확실히 느낄 수 있었으며,
 나에게 무엇보다 절실하게 다가왔다.
+
+<br>
 
 *********************************************
