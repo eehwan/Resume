@@ -64,27 +64,35 @@
 
 ## < 개인 프로젝트 >
 
-### 동영상 공유 플랫폼 [코드 링크](https://github.com/eehwan/Wetube)
+### 동영상 공유 플랫폼 (Wetube) [코드 링크](https://github.com/eehwan/Wetube)
 
 - **Stacks**: node, express, RESTful api, OAuth, Aws-S3, mongoDB, ...  
 - **Features**: 회원가입, 업로드, 삭제, 댓글 등등  
 
-### 실시간 Drawing & Chatting app [코드 링크](https://github.com/eehwan/Catch-Mind)
+### 실시간 Drawing & Chatting app (Catch-Mind) [코드 링크](https://github.com/eehwan/Catch-Mind)
 
 - **Stacks**: node, socketIO  
 - **Features**: SPA, socketIO를 통한 html Canvas 라이브 공유, 라이브 채팅  
 
-### React framework를 이용한 movieApp [코드 링크](https://github.com/eehwan/https://github.com/eehwan/movie_app)
+### React framework를 이용한 영화 소개 web (movieApp) [코드 링크](https://github.com/eehwan/https://github.com/eehwan/movie_app)
 
 - **Stacks**: react, JSX, Html, Css  
 - **Features**: react를 이용한 프론트엔드 작업물  
 
-### Painting Board [코드 링크](https://github.com/eehwan/PaintingBoard)
+### 그림판 (Painting Board) [코드 링크](https://github.com/eehwan/PaintingBoard)
 
 - **Stacks**: Html, Css, Html Canvas  
 - **Features**: 사진 불러오기 저장하기 등이 가능한 그림판  
 
-등등
+### Notes for ToDo list (todoWEB) [코드 링크](https://github.com/eehwan/todoWEB)
+
+- **Stacks**: Html, Css, Local-Storage, openweatherMap api 
+- **Features**: 간단한 메모 작성, 위치기반 날씨 제공
+
+
+<br>
+
+Etc . . .
 
 <br>
 
@@ -100,12 +108,13 @@
 
 #### 인코딩 오류
   
-> 가장 처음 만들었던 웹페이지로 기본적인 게시판을 구현하여
-아파치 서버로 가동하여 테스트했었다. 내 컴퓨터에 있는 파이썬 인터프리터로 돌아갔었는데
-내 파이썬에서는 비슷한 오류가 난 적이 없었는데 자꾸 한글만 글자가 깨지는 오류가 났었다.
-그래서 서치를 하던 중 이것이 인코딩 문제라는 것을 알게 되었다.
-그래서 웹페이지의 meta태그의 charset 설정을 cp949, unicode 등으로 변경해보았고 파이썬 인터프리터에서 defaultcoding도 변경해보았지만,
-문제가 해결되지 않았다. 결국 혼자 해결 할 수가 없었다. 하지만 그 당시에는 관련 검색어나 물어볼만한 커뮤니티를 알지 못했고 개발 관련 오픈 카톡방까지 여기저기 돌아다니며 해결책을 찾았고 그 결과
+> 가장 처음 만들었던 웹페이지로 기본적인 게시판을 구현하여 아파치 서버로 가동하여 테스트했었다. 내 컴퓨터에 있는 파이썬 인터프리터로 돌아갔었는데 내 파이썬에서는 비슷한 오류가 난 적이 없었는데 자꾸 한글의 경우만 글자가 깨지는 오류가 났었다.
+
+>그래서 서치를 하던 중 이것이 인코딩 문제라는 것을 알게 되었다.
+그 후, 웹페이지의 meta태그의 charset 설정을 cp949, unicode 등으로 변경해보았고 파이썬 인터프리터에서 defaultcoding도 변경해보았지만,
+문제가 해결되지 않았다.
+
+>결국 혼자 해결 할 수가 없었다. 하지만 그 당시에는 관련 검색어나 물어볼만한 커뮤니티를 알지 못했고 개발 관련 오픈 카톡방까지 여기저기 돌아다니며 해결책을 찾았고 그 결과
 
 ```python
 import sys
@@ -119,7 +128,7 @@ sys.setdefaultcoding("utf-8")
 
 <br>
 
-### - Painting board 中
+### - 그림판(Painting board) 中
 
 <br>
 
@@ -135,9 +144,11 @@ sys.setdefaultcoding("utf-8")
 
 ### - Youtube를 오마주한 동영상 공유 플렛폼(Wetube) 中  
 
+<br>
+
 #### 동기처리와 비동기처리에 대한 이해 부족
 
-> 해당 내용에 대해 서치와 강의나 영상등을 시청하며 지식을 쌓고 테스트코드를 통한 연습을 하였고 하나씩 코드에 적용시켜가며 개발 진행
+> 해당 내용에 대해 서치와 강의나 영상등을 시청하며 지식을 쌓고 테스트코드를 통한 연습을 하였고 하나씩 코드에 적용시켜가며 개발을 진행하였다.
 
 #### 배포 서버가 linux기반이여 window기반 script가 동작하지 않음
 
@@ -145,11 +156,17 @@ sys.setdefaultcoding("utf-8")
 production버전 명령어는 linux명령어로 바꾸었다.
 그 이후 다른 개인 프로젝트에서는 이런 경험을 바탕으로 os가 달라도 문제가 되지않게 gulp를 이용하여 dev모드 실행과 prduction모드 build가 될 수 있도록 설정하여 미리 해결하였다.
 
-### 고찰
+#### git 명령어를 잘 알지 못하여 되돌리지 못함
+
+> 위의 배포과정에서 문제가 발생된 뒤, 사실 바로 해결된 것이 아니다. 그때 당시가 학교 시험기간이었고 바쁘고 정신없던 시간이라 일단 프로젝트는 미루어두고 학업에 집중하기로 결정햇었다.
+
+> 그리고 시험기간이 끝난 후, 문제를 해결하고자 할때 오랜만에 코드를 보자 어디서부터 수정해야할지 막막해져서 일단 문제가 발생하기 이전으로 돌리고자 하였다. 하지만 git에 익숙하지 않아 해당 과정에 애를 먹엇고, 다시금 git을 공부하여 문제를 해결하고 이 문제를 언제든 다시 마주할 거 같아 내가 찾기 쉽게 개인 velog에 정리해두었다.
+
+#### 고찰
 
 > 처음으로 서버와 db, Aws-s3 Storage를 이용하여 작업하게된 프로젝트라 진행하는 과정에서 정말 머리가 하얘지는 경우도 많았고 답답한 경우도 많았다. 그만큼 완성하고 나서의 성취감과 만족감도 높았다.
 
-> 배포나 db연결 등에 보다 익숙해지게 되었으며 RESTful api를 사용하는데에도 능숙해져서 보람이 컷다.
+> 배포나 db연결 등에 보다 익숙해지게 되었으며 RESTful api를 사용하는데에도 능숙해져서 보람이 컸다.
 
 ------------------------------------------
 
@@ -189,12 +206,13 @@ production버전 명령어는 linux명령어로 바꾸었다.
 
 <br>
 
-## 비전공자인데 개발자로 전향한 이유?
+## 비전공자인데 개발자로 전향한 이유 ?
 
 <br>
 
 >기존 학과에 만족하지 못하고 있었다. 그러던 중 접한 개발에서 끊임없이 접하는 오류와 해결, 그 과정에서 오는 희열이 컸다.
-또한 작은 프로젝트를 들어가서 며칠 내지 몇 주 넘게 한 가지에 몰두하여 작업하고 마무리하여 끝마칠 때 오는 만족감이 굉장이 컸다.
+
+>또한 작은 프로젝트를 들어가서 며칠 내지 몇 주 넘게 한 가지에 몰두하여 작업하고 마무리하여 끝마칠 때 오는 만족감이 굉장이 컸다.
 
 >기존에 나에게 맞지 않는 전공을 공부하고 있던 터라, 개발이 나의 적성과 흥미에 잘 맞는다는 것을 더욱 확실히 느낄 수 있었으며,
 나에게 무엇보다 절실하게 다가왔다.
