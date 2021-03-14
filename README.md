@@ -6,12 +6,12 @@
 
 <br>
 
-## 신이환
+## 신 이 환
 
-생년월일: 1995년 2월 15일  
-전화번호: 010-5006-0874  
-이메일: eehwan.shin@gmail.com  
-깃허브주소: <https://github.com/eehwan>
+생년월일 : &nbsp;**1995년 2월 15일**  
+전화번호 : &nbsp;**010-5006-0874**  
+&nbsp;&nbsp;E-mail &nbsp;&nbsp; : &nbsp;**eehwan.shin@gmail.com**  
+&nbsp;&nbsp;Github &nbsp;&nbsp;: &nbsp;**<https://github.com/eehwan>**
 
 <br>
 
@@ -20,7 +20,7 @@
 
 ## < Education >
 
-- 고려대학교 졸업예정(~ 2022.02)
+- 고려대학교 : _2014.03 ~ 2022.02_ (졸업예정)
 
 <br>
 
@@ -36,7 +36,7 @@
 
 <br>
 
-### 나의 강점  
+## 나의 강점  
 
 <br>
 
@@ -53,7 +53,7 @@
 
 - Front-end: Html5, Css, Scss, Javascript, webpack, React
 - Back-end: NodeJS, express, RESTful api, Aws s3
-- Database: mySQL, mongoDB
+- Database: SQLite, mongoDB
 - Etc: socketIO, git  
 
 <br>
@@ -76,8 +76,8 @@
 
 ### React framework를 이용한 영화 소개 web (movieApp) [코드 링크](https://github.com/eehwan/https://github.com/eehwan/movie_app)
 
-- **Stacks**: react, JSX, Html, Css  
-- **Features**: react를 이용한 프론트엔드 작업물  
+- **Stacks**: React, JSX, Html, Css  
+- **Features**: React를 이용한 프론트엔드 작업물  
 
 ### 그림판 (Painting Board) [코드 링크](https://github.com/eehwan/PaintingBoard)
 
@@ -128,7 +128,7 @@ sys.setdefaultcoding("utf-8")
 
 <br>
 
-### - 그림판(Painting board) 中
+### - 그림판 (Painting board) 中
 
 <br>
 
@@ -142,7 +142,7 @@ sys.setdefaultcoding("utf-8")
 
 <br>
 
-### - Youtube를 오마주한 동영상 공유 플렛폼(Wetube) 中  
+### - Youtube를 오마주한 동영상 공유 플렛폼 (Wetube) 中  
 
 <br>
 
@@ -160,7 +160,7 @@ production버전 명령어는 linux명령어로 바꾸었다.
 
 > 위의 배포과정에서 문제가 발생된 뒤, 사실 바로 해결된 것이 아니다. 그때 당시가 학교 시험기간이었고 바쁘고 정신없던 시간이라 일단 프로젝트는 미루어두고 학업에 집중하기로 결정햇었다.
 
-> 그리고 시험기간이 끝난 후, 문제를 해결하고자 할때 오랜만에 코드를 보자 어디서부터 수정해야할지 막막해져서 일단 문제가 발생하기 이전으로 돌리고자 하였다. 하지만 git에 익숙하지 않아 해당 과정에 애를 먹엇고, 다시금 git을 공부하여 문제를 해결하고 이 문제를 언제든 다시 마주할 거 같아 내가 찾기 쉽게 개인 velog에 정리해두었다.
+> 그리고 시험기간이 끝난 후, 문제를 해결하고자 할때 오랜만에 코드를 보자 어디서부터 수정해야할지 막막해져서 일단 문제가 발생하기 이전으로 돌리고자 하였다. 하지만 git에 익숙하지 않아 해당 과정에 애를 먹엇고, 다시금 git을 공부하여 문제를 해결하였다. 그리고 이 문제를 언제든 다시 마주할 거 같아서 언제든 찾기 쉽게 개인 velog에 정리해두었다.
 
 #### 고찰
 
@@ -172,7 +172,7 @@ production버전 명령어는 linux명령어로 바꾸었다.
 
 <br>
 
-### -  상대방이 그린 그림 맞추기 게임(Catch-Mind) 中    
+### -  상대방이 그린 그림 맞추기 게임 (Catch-Mind) 中    
   
 <br>
 
