@@ -2,7 +2,8 @@
 
 [![HitCount](http://hits.dwyl.com/eehwan/Resume.svg)](http://hits.dwyl.com/eehwan/Resume)
 ![GitHub last commit](https://img.shields.io/github/last-commit/eehwan/Resume.svg)
-![status](https://img.shields.io/badge/working-brightgreen.svg)
+![status](https://img.shields.io/badge/Studying-blue.svg)
+
 
 <br>
 
@@ -43,6 +44,8 @@
 - 한 번 정한 목표는 포기하지 않고 될 때 까지 노력한다.
 - 논리적 접근을 좋아하며 사소하고 세심한 것을 캐치 잘 한다.
 - 적당한 마무리보다 완벽한 마무리를 선호한다.
+- 새로운 것에 흥미가 많고 배우는 걸 즐긴다.
+- 최소한 같은 실수 다시 하지않으려 노력하며, 실패를 통해 더 발전하는 사람이다.
 - 항상 **WHY**와 **HOW**를 생각한다.
     
     >왜 이렇게 하는것이 보편적인가 ?  
@@ -59,10 +62,13 @@
 
 ## Skills
 
-- Front-end: Html5, Css, Scss, Javascript, webpack, React
-- Back-end: NodeJS, express, RESTful api, Aws s3
-- Database: SQLite, mongoDB
-- Etc: socketIO, git  
+- **Front-end**: Html5, Css, Scss, Javascript, webpack, React
+
+- **Back-end**: NodeJS, express, RESTful api, Aws s3
+
+- **Database**: SQLite, mongoDB
+
+- **Etc**: socketIO, git  
 
 <br>
 
