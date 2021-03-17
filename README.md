@@ -181,9 +181,10 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 #### 배포 서버가 linux기반이여 window기반 script가 동작하지 않음
 
->문제 원인을 찾지 못하고 헤매다가 OS가 달라 생기는 문제라는 것을 알게 되었다. 그리고 나서 linux script명령어를 따로 숙지해서 dev버전은 그대로 window기반으로 나둔 채  
-production버전 명령어는 linux명령어로 바꾸었다.
-그 이후 다른 개인 프로젝트에서는 이런 경험을 바탕으로 OS가 달라도 문제가 되지 않게 gulp를 이용하여 dev모드 실행과 prduction모드 build가 될 수 있도록 설정하여 미리 해결하였다.
+>문제 원인을 찾지 못하고 헤매다가 OS가 달라 생기는 문제라는 것을 알게 되었다. 그리고 나서 linux script명령어를 따로 숙지해서 **dev**버전은 그대로 window기반으로 나둔 채 **production**버전 명령어는 linux명령어로 바꾸었다.  
+또한 배포환경과 같은 linux기반 환경을 구축할 수 있게 wsl을 이용하는 방법도 익혔다.
+
+> 그 이후 다른 개인 프로젝트에서는 이런 경험을 바탕으로 OS가 달라도 문제가 되지 않게 gulp를 이용하여 dev모드 실행과 prduction모드 build가 될 수 있도록 설정하여 미리 해결하였다.
 
 #### git 명령어를 잘 알지 못하여 되돌리지 못함
 
