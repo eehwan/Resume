@@ -78,27 +78,27 @@
 
 <br>
 
-### 동영상 공유 플랫폼 (Wetube) [<u>Git Link</u> <](https://github.com/eehwan/Wetube)
+### 동영상 공유 플랫폼 (Wetube) <u>[Git Link](https://github.com/eehwan/Wetube)</u> <
 
 - **Stacks**: node, express, RESTful api, OAuth, AWS-s3, mongoDB, ...  
 - **Features**: 회원가입, 업로드, 삭제, 댓글 등등  
 
-### 실시간 Drawing & Chatting app (Catch-Mind) [<u>Git Link</u> <](https://github.com/eehwan/Catch-Mind)
+### 실시간 Drawing & Chatting app (Catch-Mind) <u>[Git Link](https://github.com/eehwan/Catch-Mind)</u> <
 
 - **Stacks**: node, socketIO  
 - **Features**: SPA, socketIO를 통한 html Canvas 라이브 공유, 라이브 채팅  
 
-### React framework를 이용한 영화 소개 web (movieApp) [<u>Git Link</u> <](https://github.com/eehwan/https://github.com/eehwan/movie_app)
+### React framework를 이용한 영화 소개 web (movieApp) <u>[Git Link](https://github.com/eehwan/https://github.com/eehwan/movie_app)</u> <
 
 - **Stacks**: React, JSX, Html, Css  
 - **Features**: React를 이용한 프론트엔드 작업물  
 
-### 그림판 (Painting Board) [<u>Git Link</u> <](https://github.com/eehwan/PaintingBoard)
+### 그림판 (Painting Board) <u>[Git Link](https://github.com/eehwan/PaintingBoard)</u> <
 
 - **Stacks**: Html, Css, Html Canvas  
 - **Features**: 사진 불러오기 저장하기 등이 가능한 그림판  
 
-### Notes for ToDo list (todoWEB) [<u>Git Link</u> <](https://github.com/eehwan/todoWEB)
+### Notes for ToDo list (todoWEB) <u>[Git Link](https://github.com/eehwan/todoWEB)</u> <
 
 - **Stacks**: Html, Css, Local-Storage, openweatherMap api 
 - **Features**: 간단한 메모 작성, 위치기반 날씨 제공
